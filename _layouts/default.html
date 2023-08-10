@@ -1,25 +1,37 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
 
-  {%- include head.html -%}
+{% include head.html %}
 
-  <body>
+  <body id="page-top">
 
-    {%- include views/header.html -%}
+      {{ content }}
 
-    {%- include views/banner.html -%}
+	  {% include footer.html %}
 
-    {%- include extensions/hashlocate.html -%}
+	  <!-- Bootstrap core JavaScript -->
+	  <script src="assets/js/jquery.min.js"></script>
+	  <script src="assets/js/bootstrap.bundle.min.js"></script>
 
-    {%- include extensions/theme-toggle.html -%}
+	  <!-- Plugin JavaScript -->
+	  <script src="assets/js/jquery.easing.min.js"></script>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+	  <!-- Contact form JavaScript -->
+	  <script src="assets/js/jqBootstrapValidation.js"></script>
+	  <script src="assets/js/contact_me.js"></script>
 
-    {%- include views/footer.html -%}
+	  <!-- Custom scripts for this template -->
+	  <script src="assets/js/agency.min.js"></script>
 
+	  <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+	  <!-- 3. 실행 스크립트 -->
+	  <script charset="UTF-8">
+		new daum.roughmap.Lander({
+	      "timestamp" : "1646636065971",
+		  "key" : "29dt8",
+		  "mapWidth" : "640",
+		  "mapHeight" : "360"
+		}).render();
+	  </script>
   </body>
 </html>

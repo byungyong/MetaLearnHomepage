@@ -1,8 +1,14 @@
 ---
-layout: articles
-heading: 'Your awesome heading'
-subheading: 'Your awesome subheading'
-banner: 'default'
+layout: default
 ---
+{% include navheader.html %}
 
-{{ content }}
+{% include about.html %}
+{% include timeline.html %}
+
+{% include solutions_grid.html %}
+{% include services.html %}
+{% include portfolio_grid.html %}
+
+{% include team.html %}
+{% include contact.html %}
