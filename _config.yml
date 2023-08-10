@@ -15,10 +15,10 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/ImageDeiHomepage" # the subpath of your site, e.g. /blog
+baseurl: "/MetaLearnHomepage" # the subpath of your site, e.g. /blog
 
-title      : ImageDei - Image Processing with AI
-email      : clee0@naver.com #this is also the email contact forms will go to
+title      : MetaLearn - AI, IoT, and BigData
+email      : byungyong0@imetalearn.com #this is also the email contact forms will go to
 description: "Site description"
 author     : Your Name
 logo:     #optional, defaults to site title
