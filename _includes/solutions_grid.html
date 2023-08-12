@@ -1,0 +1,30 @@
+<!-- Solutions Grid -->
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].solutions.section | default: "Solutions" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].solutions.title | markdownify | default: "Solutions" }}</h2>
+          <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].solutions.text | markdownify }}</h3>
+        </div>
+      </div>
+      <div class="row">
+      {% for project in site.solutions %}
+      <div class="col-md-4 col-sm-6 solutions-item">
+        <a class="solutions-link" data-toggle="modal" href="#s{{ forloop.index }}">
+          <div class="solutions-hover">
+            <div class="solutions-hover-content">
+              <i class="{{ site.data.style.solutions-icon | default: "fas fa-plus fa-3x" }}"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+        </a>
+        <div class="solutions-caption">
+          <h4>{{ project.caption.title }}</h4>
+          <p class="text-muted">{{ project.caption.subtitle }}</p>
+        </div>
+      </div>
+	{% endfor %}
+    </div>
+  </div>
+</section>
+{% include solutions_modals.html %}

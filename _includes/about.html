@@ -1,0 +1,33 @@
+<!-- About -->
+<section class="page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about.title | default: "About Us" }}</h2>
+      </div>
+    </div>
+    {% for sub_section in site.data.sitetext[site.locale].about.subsection %}
+    <div class="row">
+      
+      <div class="col-lg-12 text-center">
+        <h4 class="service-heading">{{ sub_section.subtitle }}</h3>
+      </div>
+        {% for sub_text in sub_section.textlist %}
+      <div class="text-muted text">
+          {{ sub_text.text_str }}
+      </div>
+        {% endfor %}  
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="large text-muted">
+          {{ sub_section.finish_str }}
+        </div>
+      </div>
+    </div>
+    <br>
+    {% endfor %}
+  </div>
+</section>
+<!-- End About -->
