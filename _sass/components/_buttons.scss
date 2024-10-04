@@ -10,8 +10,8 @@
 }
 
 .btn-primary {
-  background-color: "#4C4D8A";
-  border-color: "#4C4D8A";
+  background-color: $primary;
+  border-color: $primary;
   &:active,
   &:focus,
   &:hover {
