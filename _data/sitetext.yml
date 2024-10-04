@@ -11,14 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: ImageDei
-    text: IoT, 영상처리, AI 전문기업
+    title: Learning to learn
+    text: Meta Learn
     button: 더 알아보기
     buttonlink: "#solutions"
   
   solutions:
     title: "솔루션"
-    text: "ImageDei의 보유 솔루션을 소개합니다."
+    text: "Meta Learn의 보유 솔루션을 소개합니다."
     section: solutions
     closebutton: "Close Solution"
 
@@ -50,9 +50,9 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "세종창조센터 재도전 패키지 선정"
-        year: "2020.05"
-        desc: "스마트 물류 사업 기초 마련"
+      - title: "주식회사 메타런 설립"
+        year: "2022.03"
+        desc: "AI 스마트 물류 사업 기초 마련"
         image: assets/img/timeline/timeline_01.png
         alt:
       - title: "㈜이미지데이 설립"
