@@ -61,6 +61,6 @@ This Privacy Policy describes how your personal information is collected, used, 
 우리의 웹사이트 이용 중 개인정보의 유출 가능성 등 정보주체의 권익이 침해될 우려가 있는 사실을 발견하였을 경우는 다음의 연락처로 알려주시기 바랍니다.
 
 **개인정보보호책임관**
-- 전화번호: 031-
-- 주소: 기도 화성시 동탄대로 706 동탄아이티밸리 II 1동 728호
+- 전화번호: 010-4301-9310
+- 주소: 경기도 화성시 동탄첨단산업 1로 14 동탄케이벨리 928호
 - 이메일: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
