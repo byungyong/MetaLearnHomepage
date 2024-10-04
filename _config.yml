@@ -17,12 +17,12 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/ImageDeiHomepage" # the subpath of your site, e.g. /blog
 
-title      : ImageDei - Image Processing with AI
-email      : clee0@naver.com #this is also the email contact forms will go to
+title      : MetaLearn - Image Processing with AI
+email      : byungyong@imetalearn.com #this is also the email contact forms will go to
 description: "Site description"
 author     : Your Name
 logo:     #optional, defaults to site title
-  path: assets\img\imagedei_logo.jpg
+  path: assets\img\ml_logo_with_name.png
   height: 80 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
