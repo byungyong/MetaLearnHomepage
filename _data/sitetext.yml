@@ -72,7 +72,7 @@ en: &DEFAULT_EN
         alt:
         # you can enforce the alignment
         align: right
-    end: "Future <br> AI <br> IoT"
+    end: "Future <br> AI <br> Solutions"
 
   about:
     title: "회사소개"
@@ -100,18 +100,22 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "IMAGEDEITEAM"
-    text: "이미지 데이 구성원을 소개합니다."
+    title: "META LEARN TEAM"
+    text: "메타런 구성원을 소개합니다."
     subtext: 박사급 인력으로 구성된 AI 및 영상처리 전문인력을 보유하고 있습니다. 
     section: team
     people:
-      - name: "이찬우"
-        role: "대표이사(영상처리박사)"
+      - name: "류병용"
+        role: "대표이사 AI 알고리즘 개발 (영상처리박사) "
         image: assets/img/team/avatar1.jpg
         social:
-      - name: "류병용"
-        role: "책임 연구원/개발팀장(영상처리박사)"
+      - name: "양종털"
+        role: "이사 하드웨어 개발팀장"
         image: assets/img/team/avatar2.jpg
+        social:
+      - name: "홍미나"
+        role: "이사 재무팀장"
+        image: assets/img/team/avatar3.jpg
         social:
 
   contact:
