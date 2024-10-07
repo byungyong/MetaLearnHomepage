@@ -52,33 +52,23 @@ en: &DEFAULT_EN
     events:
       - title: "주식회사 메타런 설립"
         year: "2022.03"
-        desc: "AI 스마트 물류 사업 기초 마련"
+        desc: "AI 사업 기초 마련"
         image: assets/img/timeline/timeline_01.png
         alt:
-      - title: "㈜이미지데이 설립"
-        year: "2020.06"
-        desc: "바나나코스메틱㈜ 투자 유치 및 기술력 인정"
-        image: assets/img/timeline/timeline_02.jpg
+      - title: "모바일 기반 Human Count 앱 개발"
+        year: "2022.06"
+        desc: "현장 적용을 통한 AI 기술력 인정"
+        image: assets/img/timeline/timeline_02.png
         alt:
-      - title: "스마트콜드체인 솔루션 1차 개발"
-        year: "2021.01"
-        desc: "콜드체인 서비스를 위한 H/W 및 소프트웨어 확보"
+      - title: "모발일 기반 얼굴 인식 솔루션 개발"
+        year: "2022.09"
+        desc: "얼굴 인식을 통한 보안 솔루션 사업 시작"
         image: assets/img/timeline/timeline_03.png
         alt: 
-      - title: "곤충 스마트팜 솔루션 개발 및 특허 출원"
-        year: "2021.02"
-        desc: "자동화된 곤충 사육을 통한 미래 먹거리 사업 시작"
+      - title: "LMM 기반 이미지 분석 솔루션 개발"
+        year: "2023.09"
+        desc: "Large Langauge Model 시대를 위한 새로운 솔루션 준비 시작"
         image: assets/img/timeline/timeline_04.jpg
-        alt:
-      - title: "충남테크노파크 선정 : 20리터 나노버블 제너레이터 과제"
-        year: "2021.07"
-        desc: "나노 버블 생성 장비 개발 시작"
-        image: assets/img/timeline/timeline_05.png
-        alt:
-      - title: "충남테크노파크 선정 : 20리터 나노버블 제너레이터 완성"
-        year: "2021.10"
-        desc: "나노 버블 생성 장비 개발 완료"
-        image: assets/img/timeline/timeline_05.png
         alt:
         # you can enforce the alignment
         align: right
