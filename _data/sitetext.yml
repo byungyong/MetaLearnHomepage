@@ -120,7 +120,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "경기도 화성시 동탄대로 706 동탄아이티밸리 II 1동 728호"
+    text: "경기도 화성시 동탄첨단산업 1로 14 동탄케이벨리 928호"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
