@@ -27,14 +27,14 @@ en: &DEFAULT_EN
     text: ""
     section: services
     list:
-      - title: "콜드체인 모니터링"
-        desc: "온도 이탈 관리를 통한 콜드체인 모니터링 및 자격증명 서비스 (준비중 LogisDei.com)"
+      - title: "Customize Object Detection 학습"
+        desc: "원하는 객체 영역을 찾아주는 학습 서비스"
         icon: fas fa-truck-moving #find more at https://fontawesome.com/icons
-      - title: "공차/공창고 매칭"
-        desc: "운행 중인 화물차의 상태와 위치를 공유하여 신속하고 저렴한 가격에 공차 매칭 및 공창고 매칭 (준비중)"
+      - title: "Customize LLM 학습"
+        desc: "개인화 또는 특정 작업에 특화된 LLM 학습"
         icon: fas fa-warehouse
-      - title: "블록체인 기반 위변조 방지"
-        desc: "콜드 체인 모니터링을 블록체인 기반 데이터 저장을 통해 위변조가 불가능한 형태의 서비스 제공 (준비중)"
+      - title: "AI 솔루선 개발 컨설팅"
+        desc: "모델 선정 부터 개발 까지 컨털팅 진행"
         icon: fas fa-file-archive
 
   #portfolio:
