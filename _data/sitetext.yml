@@ -71,8 +71,8 @@ en: &DEFAULT_EN
         image: assets/img/timeline/timeline_04.jpg
       - title: "연구 전담 부서 설립"
         year: "2024.01"
-        desc: "Large Langauge Model 시대를 위한 새로운 솔루션 준비 시작"
-        image: assets/img/timeline/timeline_05.jpg
+        desc: "AI 연구 및 혁신을 위한 준비"
+        image: assets/img/timeline/timeline_05.png
         alt:
         # you can enforce the alignment
         align: right
