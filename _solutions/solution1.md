@@ -1,12 +1,12 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: DeiCam
-  subtitle: 강력한 무료 PC녹화 프로그램
+  title: 얼굴 인식
+  subtitle: 고성능 고효율 얼굴인식 솔루션
   thumbnail: assets/img/solutions/deicam_thum.png
   
 #what displays when the item is clicked:
-title: DeiCam
-subtitle: 강력한 무료 PC녹화 프로그램
+title: 얼굴 인식
+subtitle: 고성능 고효율 얼굴인식 솔루션
 image: assets/img/solutions/DeiCam.png 
 alt: image alt text
 

@@ -1,11 +1,11 @@
 ---
 caption:
-  title: AI 얼굴 분석 솔루션
-  subtitle: 얼굴 표정, 나이, 성별 인식
+  title: AIoT 솔루션
+  subtitle: 영상 기반 AI 기능 수행 및 IoT 모니터링 솔루션
   thumbnail: assets/img/solutions/fa_thum.png
 
-title: AI 솔루션 개발
-subtitle: 얼굴 표정, 나이, 성별 인식
+title: AIoT 솔루션
+subtitle: 영상 기반 AI 기능 수행 및 IoT 모니터링 솔루션
 image: assets/img/solutions/fa.png
 alt: Keep Exploring
 

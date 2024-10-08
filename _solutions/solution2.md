@@ -1,12 +1,12 @@
 ---
 caption:
-  title: 곤충 스마트팜
-  subtitle: 자동화된 곤충 사육 시스템
+  title: People Count
+  subtitle: 자동화된 검출 및 추적
   thumbnail: assets/img/solutions/sp_thum.png
 
 #what displays when the item is clicked:
-title: 곤충 스마트팜
-subtitle: 온도, 습도, 사료 자동 공급을 통한 곤충 자동화된 곤충 사육 시스템
+title: People Count
+subtitle: 자동화된 검출 및 추적
 image: assets/img/solutions/sp2.png
 alt: image alt text
 
