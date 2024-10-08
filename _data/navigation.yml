@@ -17,8 +17,8 @@ en: &DEFAULT_EN
       section: solutions
     - title: "서비스"
       section: services
-    - title: "시스템"
-      section: portfolio
+    #- title: "시스템"
+    #  section: portfolio
     - title: "Contact"
       section: contact
 en-US:
